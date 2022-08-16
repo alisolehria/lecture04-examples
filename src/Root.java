@@ -17,6 +17,7 @@ public class Root {
 				//performing the computation
 				if(number >= 0) {//positive number
 					root = Math.sqrt(number);
+					
 					System.out.print("Square root ("+ number+ ") = " + root);
 				}else {//negative number
 					System.out.print(number+ "does not have a 'real' square root ");
